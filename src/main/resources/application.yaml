@@ -1,8 +1,7 @@
 server:
   port: 8888
 
-spring:
-  application:
-    name: cf-demo
-  cloud:
-    config.server.git.uri: https://github.com/myunusov/cf-demo/tree/config
+logging:
+  level.root: info
+  pattern.console: "%d{dd-MM-yyyy HH:mm:ss.SSS} %magenta([%thread]) %highlight(%-5level) %logger.%M - %msg%n"
+
