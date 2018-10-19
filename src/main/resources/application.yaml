@@ -1,2 +1,8 @@
 server:
   port: 8888
+
+spring:
+  application:
+    name: cf-demo
+  cloud:
+    config.server.git.uri: https://github.com/myunusov/cf-demo/tree/config
